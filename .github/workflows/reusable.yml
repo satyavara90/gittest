@@ -1,0 +1,8 @@
+name: Website Deployment
+on: workflow_call
+jobs: 
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: output information
+        run: echo "d4eploy &upload"
